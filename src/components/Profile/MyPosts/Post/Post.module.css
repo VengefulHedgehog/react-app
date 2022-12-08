@@ -1,0 +1,27 @@
+.post{
+    display: grid;
+    grid-template-columns: 100px 400px;
+    grid-template-rows: auto 30px;
+    grid-template-areas: 'img text' 
+                        'reaction reaction';
+    align-items: center;
+    margin: 0 0 20px 0;
+}
+.post img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    grid-area: img;
+}
+.post__text{
+    grid-area: text;
+}
+.post__reaction{
+    display: flex;
+    flex-direction: row;
+    grid-area: reaction;
+}
+.post__reaction p:first-child{
+    margin-right: 20px;
+}

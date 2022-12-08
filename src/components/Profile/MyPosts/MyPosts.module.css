@@ -1,0 +1,16 @@
+.myPost{
+    padding: 0 40px;
+    color: #FFF;
+}
+.new__post{
+    display:flex;
+    flex-direction: column;
+}
+.new__post textarea{
+    margin: 0 0 20px 0;
+    height: 50px;
+}
+.new__post button{
+    width: 100px;
+    align-self: flex-end;
+}

@@ -1,0 +1,64 @@
+.dialogs{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    border: 1px solid #000;
+    border-radius: 0 0 20px 0;
+    min-height: 500px;
+}
+.dialogs__items{
+    display: flex;
+    flex-direction: column;
+    align-items:  flex-start;
+}
+.dialogs__items li{
+    margin: 0 0 5px 0;
+}
+.dialog, .active{
+    color: #000;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 25px;
+}
+.active{
+    color: gold;
+}
+.dialog__messages{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 40px;
+    border-left: 1px solid black;
+}
+.message{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    color: black;
+}
+.message__img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0 20px 0 0;
+    padding: 10px;
+}
+.message__text{
+    padding: 10px;
+    border-radius: 10px 10px 10px 0;
+    background: #FFF;
+    width: 100%;
+    min-width: 500px;
+}
+.dialog__item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 200px;
+    margin: 0 0 10px 0;
+}
+.dialog__ava{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+}
